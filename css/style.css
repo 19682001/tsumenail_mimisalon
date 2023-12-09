@@ -247,7 +247,6 @@ h2.C1 span.SO::after {
   background: #FFEFD7;
 }
 
-
 /* circle */
 
 .content {
@@ -543,8 +542,6 @@ h2.C2 span.BLACK {
   position: absolute;
   top: 0;
   z-index: 1;
-
-
 }
 
 
@@ -1108,6 +1105,183 @@ body.appear #container{
 
 @media (max-width: 700px) {
 
+  div.LINE {
+    width: 350px;
+  }
+
+  h2 {
+    width: 350px;
+    font-size: 20px;
+  }
+
+  img.LOGO {
+    width: 110px;
+  }
+
+  #slider {
+    height: 1100px;
+  }  
+
+  .LOGO-TYPE {
+    width: 300px;
+  }
+
+  h2.C2 {
+    max-width: 350px;
+    font-size: 20px;
+  }
+  
+  h2.C2 span.WHITE {
+    margin-top: 20px;
+    background: #FFEFD7;
+    padding: 1px;
+    display: inline-block;
+    height: 200px;
+  
+  }
+  
+  h2.C2 span.BLACK {
+    margin-top: 20px;
+    background: #1A1A1A;
+    padding: 8px;
+  }
+
+  .CIRCLE {
+    position: absolute;
+    z-index: 1;
+    top: 1300px;
+    width: 100%;
+  }
+
+  .CIRCLE ul {
+    max-width: 350px;
+  }
+  
+  .CIRCLE .TSUME-1 {
+    width: 130px;
+    top: 360px;
+    left: 45%;
+    transform: translate(-50%, 0);
+  }
+  
+  .CIRCLE .TSUME-1 img {
+    height: 130px;
+  }
+  
+  .CIRCLE .TSUME-2 {
+    width: 75px;
+    top: 180px;
+    left: 0%;
+    transform: translate(-50%, 0);
+  }
+  
+  .CIRCLE .TSUME-2 img {
+    height: 75px;
+  }
+  
+  .CIRCLE .TSUME-3 {
+    width: 180px;
+    top: 170px;
+    left: 105%;
+    transform: translate(-50%, 0);
+  }
+  
+  .CIRCLE .TSUME-3 img {
+    height: 180px;
+  }
+  
+  .CIRCLE .TSUME-4 {
+    width: 80px;
+    top: 150px;
+    left: 63%;
+    transform: translate(-50%, 0);
+  }
+  
+  .CIRCLE .TSUME-4 img {
+    height: 80px;
+  }
+  
+  .CIRCLE .TSUME-5 {
+    width: 50px;
+    top: 50px;
+    left: 90%;
+    transform: translate(-50%, 0);
+  }
+  
+  .CIRCLE .TSUME-5 img {
+    height: 50px;
+  }
+  
+  .CIRCLE .TSUME-6 {
+    width: 210px;
+    left: 40%;
+    transform: translate(-50%, 0);
+  }
+  
+  .CIRCLE .TSUME-6 img {
+    height: 210px;
+  }
+
+  .SQUARE ul {
+    width: 350px;
+    margin: 0 auto;
+  }
+  
+  .SQUARE .SQU-1 {
+    top: 120px;
+    left: 47%;
+    transform: translate(-50%, 0);
+    width: 200px;
+    padding: 25px;
+    border: solid 3px #1A1A1A;
+  }
+  
+  .SQUARE .SQU-2 {
+    position: absolute;
+    z-index: 4;
+    top: 100px;
+    right: 9%;
+    transform: translate(50%, 0);
+    width: 150px;
+  }
+  
+  .SQUARE .SQU-3 {
+    position: absolute;
+    z-index: 5;
+    top: 70px;
+    left: 21%;
+    transform: translate(-50%, 0);
+    width: 140px;
+  }
+  
+  .SQUARE .SQU-4 {
+    position: absolute;
+    top: 260px;
+    left: 20%;
+    transform: translate(-50%, 0);
+    width: 250px;
+    padding: 15px;
+    border: solid 3px #FFEFD7;
+  }
+  
+  .SQUARE .SQU-5 {
+    position: absolute;
+    top: 20px;
+    left: 72%;
+    transform: translate(-50%, 0);
+    width: 75px;
+    padding: 32px;
+    border: solid 3px #FFEFD7;
+  }
+  
+  .SQUARE .SQU-6 {
+    position: absolute;
+    top: 260px;
+    right: 12%;
+    transform: translate(50%, 0);
+    width: 160px;
+  }
+
   .menu ul {
     display: flex;
     flex-wrap: wrap;
@@ -1155,7 +1329,7 @@ body.appear #container{
 
   .container-2 li img {
     width: 100%;
-    height: 400px;
+    height: 350px;
     object-fit: cover;
   }
 
