@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 759.36 77">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d2524d;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        font-family: SovbaThin, Sovba;
+        font-size: 57.91px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        isolation: isolate;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #fef8ed;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        font-family: TsukuARdGothicStd-R-83pv-RKSJ-H, 'FOT-TsukuARdGothic Std';
+        font-size: 59.3px;
+      }
+
+      .cls-6 {
+        fill: none;
+        stroke: #fef8ed;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="_レイヤー_2-2" data-name=" レイヤー 2">
+    <g id="_レイヤー_1-2" data-name=" レイヤー 1-2">
+      <g class="cls-5">
+        <text class="cls-4" transform="translate(12.03 52.18) scale(1.4 1)"><tspan x="0" y="0">爪</tspan></text>
+      </g>
+      <g class="cls-5">
+        <text class="cls-2" transform="translate(128.22 54.43) scale(1.93 1)"><tspan x="0" y="0">salon</tspan></text>
+        <text class="cls-3" transform="translate(348.28 54.43) scale(1.93 1)"><tspan x="0" y="0"> </tspan></text>
+        <text class="cls-1" transform="translate(370.65 54.43) scale(1.93 1)"><tspan x="0" y="0">m</tspan></text>
+        <text class="cls-2" transform="translate(460.28 54.43) scale(1.93 1)"><tspan x="0" y="0">imi nail</tspan></text>
+      </g>
+      <line class="cls-6" y1="76" x2="759.36" y2="76"/>
+    </g>
+  </g>
+</svg>
