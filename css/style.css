@@ -734,7 +734,7 @@ h6 {
 
 h3 {
   margin: 0;
-  font-size: 26px;
+  font-size: 22px;
   text-align: center;
 	transform: scaleX(2);
   max-width: 100%;
@@ -1363,6 +1363,59 @@ body.appear #container{
   #Nnav {
     bottom: 160px;
   }
+
+  .Hnav {
+    position: fixed;
+    top: 0;
+    right: calc(50% - (395px / 2));
+    z-index: 999;
+  }
+  
+  .Hnav ul {
+   writing-mode: horizontal-tb;
+   display: inline-flex;
+   width: 395px;
+   gap: 0px;
+  }
+  
+  .Hnav ul li a {
+    display: block;
+    height: 36px;
+    width: 125px;
+    line-height: 36px;
+    letter-spacing: 3px;
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .Hnav ul li:hover {
+    transform: translateY(12px);
+  }
+  
+  .Hnav li + li {
+    margin-top: 0;
+    margin-left: 10px;
+  }
+  
+  .Hnav ul li a.white {
+    text-orientation: none;
+    background: #600404;
+    color: #FFEFD7;
+    padding-top: 15px;
+    padding-right: 0;
+    transform: translateY(-15px);
+
+  }
+  
+  .Hnav ul li a.red {
+    background: #FFF8EC66;
+    color: #1A1A1A;
+    padding-top: 15px;
+    padding-right: 0;
+    transform: translateY(-15px);
+
+  }
+  
 
 
 }
